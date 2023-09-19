@@ -1,0 +1,54 @@
+.menu-title {
+  padding: 1rem;
+  text-align: center;
+}
+
+.r-wrapper {
+  display: grid;
+  margin-top: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 1rem;
+}
+.r-card {
+  display: inline-block;
+  transition: transform 0.2s;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 0.5rem;
+  cursor: pointer;
+  width: auto;
+  height: 20rem;
+  z-index: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  background: gray;
+}
+.r-card:hover {
+  transform: scale(1.05);
+  z-index: 1;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.r-img {
+  width: 100%;
+  height: 100%;
+}
+.r-title {
+  position: absolute;
+  padding: 0 1rem 1rem 1rem;
+  bottom: 0px;
+  height: 290px;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-end;
+  background-color: transparent;
+  background-image: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.7));
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.r-title:hover {
+  opacity: 1;
+}

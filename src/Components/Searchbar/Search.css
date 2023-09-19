@@ -1,0 +1,93 @@
+.Hero {
+  background-image: url("https://img.freepik.com/premium-photo/food-background-menu-with-spices-culinary-ingredients-dark-stone-background-cooking-concepts-culinary-background-top-view-free-space-your-text_234595-2347.jpg?w=2000");
+  padding: 2.4rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-sec {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.h-title {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  color: #fff;
+}
+
+.h-title h1,
+h3 {
+  color: white;
+  text-align: center;
+  max-width: 75%;
+}
+
+.h-title > button {
+  max-width: 30%;
+  justify-content: center;
+}
+
+.search-wrapper {
+  width: 100%;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+  background-color: white;
+  border: 2px solid black;
+  height: 100%;
+  padding: 0 2rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+.search-box input {
+  cursor: pointer;
+}
+.search-box input::placeholder {
+  color: black;
+}
+.search-box > button {
+  color: black;
+}
+
+.search-field {
+  background-color: transparent;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  width: 100%;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  border: none;
+}
+
+.search-icon {
+  align-self: center;
+  font-size: 1.4rem;
+  color: black;
+}
+.search-container .btn-p {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: black;
+}
+.search-container .btn-p:hover {
+  transform: scale(1.25);
+  color: black;
+}

@@ -1,0 +1,77 @@
+.n-wrapper {
+  width: 100%;
+  padding: 1rem 4rem;
+}
+.n-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.n-menu {
+  display: flex;
+  gap: 3rem;
+}
+.n-button {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #babfc3;
+  padding: 7px 16px;
+  min-height: 36px;
+  min-width: 36px;
+  color: #000;
+  background: #fff;
+  border-radius: 1rem;
+  border: 2px solid black;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.n-button:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+input::placeholder {
+  color: white;
+  text-align: center;
+}
+input:focus {
+  outline: none;
+}
+
+.n-menu > li :hover {
+  color: #daa520;
+}
+
+.n-menu > li {
+  margin: 20px;
+  cursor: pointer;
+}
+
+/*DROPDOWN BUTTON*/
+
+.menu {
+  position: absolute;
+  transform: translateX(-10%);
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 0;
+  width: 150px;
+  z-index: 100;
+  background-color: #1e293b;
+  border-radius: 10px;
+}
+.name {
+  color: white;
+  margin: 5px 10px;
+}
+.menu > li {
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  background-color: transparent;
+}
